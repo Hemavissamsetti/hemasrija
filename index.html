@@ -33,44 +33,51 @@
             width: 100%;
             height: 250px;
         }
+
         .surya {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        gap: 10px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px;
+            height: 390px;
 
         }
-        .owl{
+
+        .owl {
             background-image: url(owls.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             width: 100%;
             height: 630px;
         }
-        button:hover{
-            background-color: black;
+
+        button:hover {
             color: white;
+            background-color: black;
+
         }
-        button{
+
+        button {
             color: black;
             background-color: yellow;
         }
-        .nagu{
+
+        .nagu {
             display: grid;
             grid-template-columns: auto;
         }
 
 
-        img:hover{
+        img:hover {
             transform: scale(1.1);
         }
-       
     </style>
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
     <header style="position: fixed;width: 100%;">
         <nav style="color: white;background-color: darkgreen;width: 100%;height: 50px;">
-            <div style="display: flex; margin-left: 1100px; gap: 25px;">
+            <div style="display: flex; margin-left: 1100px; gap: 25px; ">
                 <div style="margin-top: 12px;">
                     <a href="https://kids.nationalgeographic.com/search"><b>SEARCH</b>
                         <i class="fa-solid fa-magnifying-glass"></i></a>
@@ -81,22 +88,23 @@
                 </div>
             </div>
         </nav>
-        <nav style="color: white;background-color: green;width: 100%;height: 150px;">
+        <nav style="color: white;background-color: green;width: 100%;height: 130px;">
             <div style="display: flex;">
-            <a href="https://kids.nationalgeographic.com/"><img src="logo.jpg" alt="image1" style="height: 150px;width: 150px;"></a>
-            <div style="margin-top: 30px; margin-left: 500px;">
-                <a href="https://kids.nationalgeographic.com/">
-                    <i class="fa-solid fa-gamepad"></i>Games</a>
+                <a href="https://kids.nationalgeographic.com/"><img src="logo.jpg" alt="image1"
+                        style="height: 130px;width: 150px;"></a>
+                <div style="margin-top: 30px; margin-left: 500px;width: 60%;">
                     <a href="https://kids.nationalgeographic.com/">
-                    <i class="fa-solid fa-video"></i>Video</a>
+                        <i class="fa-solid fa-gamepad"></i>Games</a>
                     <a href="https://kids.nationalgeographic.com/">
-                    <i class="fa-solid fa-paw"></i>Animals</a>
+                        <i class="fa-solid fa-video"></i>Video</a>
                     <a href="https://kids.nationalgeographic.com/">
-                    <i class="fa-solid fa-plus"></i>Explore more</a>
+                        <i class="fa-solid fa-paw"></i>Animals</a>
                     <a href="https://kids.nationalgeographic.com/">
-                    <i class="fa-regular fa-note-sticky"></i>Subscribe</a>
-                
-            </div>
+                        <i class="fa-solid fa-plus"></i>Explore more</a>
+                    <a href="https://kids.nationalgeographic.com/">
+                        <i class="fa-regular fa-note-sticky"></i>Subscribe</a>
+
+                </div>
             </div>
 
 
@@ -117,7 +125,8 @@
             </center>
         </div>
         <div class="hema">
-            <div style="display: flex;justify-content: space-evenly; gap:50px; height: 100px; width:100%; top: 100px; position: relative;">
+            <div
+                style="display: flex;justify-content: space-evenly; gap:50px; height: 100px; width:100%; top: 100px; position: relative;">
                 <div style="width: 33%;">
                     <div style="width: 50%;display: flex;">
                         <img src="park.jpg" alt="image2" style="height: 150px;">
@@ -134,13 +143,13 @@
                 </div>
             </div>
         </div>
-        <div style="width: 100%;  height: 200px; margin-top: 100px;">
+        <div style="width: 100%;  height: 200px; margin-top: 100px;" class="sravani">
             <h1 style="text-align: center;font-size:xx-large;">BRAIN BOOSTERS</h1>
             <div style="display: flex;width: 100%;height: 190px;justify-content: space-evenly;">
-                 <div style="width: 25%;">
+                <div style="width: 25%;">
                     <img src="hell.jpg" alt="image5" style="height: 170px;"><br>
                     <b>Hallowen hangout</b>
-                </div> 
+                </div>
                 <div style="width: 25%;">
                     <img src="costume.jpg" alt="image6" style="height: 170px;"><br>
                     <b>Hallowen costumes</b>
@@ -157,11 +166,11 @@
 
 
             </div>
-            
+
         </div>
-        <div style="width: 100%; height: 410px;margin-top: 100px;">
+        <div style="width: 100%;margin-top: 100px;" class="sravya">
             <h1 style="text-align: center;">COOL STUFF</h1>
-            <div class="surya" style="width: 100%; height: 390px; justify-content: space-evenly;">
+            <div class="surya" style="width: 100%;  justify-content: space-evenly;">
                 <div style="width: 25%;">
                     <img src="quiz.jpg" alt="image9" style="height: 170px;"><br>
                     <b>Quizzes</b>
@@ -199,34 +208,36 @@
         </div>
         <div class="owl" style="margin-top: 100px; display: flex;width: 100%;">
             <div style="width:50% ;margin-top: 100px; ">
-             <center> <h1>PLAY NOW!</h1>
-                <button>SEE ALL GAMES</button></center>
+                <center>
+                    <h1>PLAY NOW!</h1>
+                    <button style="width: 150px; height: 30px;">SEE ALL GAMES</button>
+                </center>
             </div>
-            <div  class="nagu" style="width: 40%; margin-top: 100px;">
+            <div class="nagu" style="width: 40%; margin-top: 100px;">
                 <div style="display: flex;">
-                    <img src="football.jpg" alt="image17"  style="height: 120px; width: 50%;">
+                    <img src="football.jpg" alt="image17" style="height: 120px; width: 50%;">
                     <div style="width: 50%;">
-                    <small>QUIZ</small><br>
-                    <b>Outdoor sports quiz</b>
+                        <small>QUIZ</small><br>
+                        <b>Outdoor sports quiz</b>
                     </div>
                 </div>
                 <div style="display: flex;">
-                    <img src="action.jpg" alt="image18"  style="height: 120px; width: 50%;">
+                    <img src="action.jpg" alt="image18" style="height: 120px; width: 50%;">
                     <div style="width: 50%;">
-                    <small>ACTION AND </small><br>
-                    <small>ADVENTURE</small><br>
-                    <b>Outdoor sports quiz</b>
+                        <small>ACTION AND </small><br>
+                        <small>ADVENTURE</small><br>
+                        <b>Outdoor sports quiz</b>
                     </div>
                 </div>
                 <div style="display: flex;">
-                    <img src="puzzle.jpg" alt="image19"  style="height: 120px; width: 50%;">
+                    <img src="puzzle.jpg" alt="image19" style="height: 120px; width: 50%;">
                     <div style="width: 50%;">
-                    <small>PUZZLES</small><br>
-                    <b>Matching:Gemstones</b>
+                        <small>PUZZLES</small><br>
+                        <b>Matching:Gemstones</b>
                     </div>
                 </div>
-                    
-                
+
+
 
 
             </div>
@@ -234,9 +245,9 @@
 
         </div>
 
-        
-        
-        
+
+
+
 
 
 
@@ -274,10 +285,11 @@
         <hr>
         <div style="display: flex; width: 100%; height: 100px;">
             <div style="width: 30%;">
-               <center> <img src="logos.jpg" alt="image16" style="height: 70px; width: 100px;"></center>
+                <center> <img src="logos.jpg" alt="image16" style="height: 70px; width: 100px;"></center>
             </div>
             <div style="width: 70%;">
-               <p>copyright c 1996-2015 National Geographic Society | copyright c 2015-2025 National Geographic Partners,LLC.All Rights Reserved</p>
+                <p>copyright c 1996-2015 National Geographic Society | copyright c 2015-2025 National Geographic
+                    Partners,LLC.All Rights Reserved</p>
             </div>
         </div>
     </footer>
